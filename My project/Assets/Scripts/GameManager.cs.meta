@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0f7e4233463fa8e4cb95df5310d950b2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - timeText: {instanceID: 0}
+  - rank: {instanceID: 0}
+  - finalRank: {instanceID: 0}
+  - finalTime: {instanceID: 0}
+  - player1: {instanceID: 0}
+  - player2: {instanceID: 0}
+  - titleScreen: {instanceID: 0}
+  - gameOverScreen: {fileID: 7356687774382343571, guid: 9cb2ea416547c10489db22522b47abef, type: 3}
+  - resultScreen: {instanceID: 0}
+  - restartButton: {instanceID: 0}
+  - normalPlatform: {instanceID: 0}
+  - invertedPlatform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
