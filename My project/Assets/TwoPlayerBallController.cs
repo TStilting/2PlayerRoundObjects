@@ -30,41 +30,53 @@ public class TwoPlayerBallController : MonoBehaviour
         float vertical1 = Input.GetAxis("Vertical1");
         float horizontal2 = Input.GetAxis("Horizontal2");
         float vertical2 = Input.GetAxis("Vertical2");
-        rb.velocity = new Vector3 (horizontal1, 0, vertical1) * speed;
-        rb2.velocity = new Vector3 (horizontal2, 0, vertical2) * speed2;
+        rb.velocity = new Vector3 (horizontal1, gravity, vertical1) * speed;
+        rb2.velocity = new Vector3 (horizontal2, gravity2, vertical2) * speed2;
 
+
+
+        
+        if (onGround == true || gamemanager.active == false)
+        {    
+            gravity = 0;
+        }
+        else
+        {
+            gravity += versnelling * Time.deltaTime;
+        }
+
+        if (onGround2 == true || gamemanager.active == false)
+        {
+           gravity2 = 0;
+        }
+        else
+        {
+            gravity2 += versnelling2 * Time.deltaTime;
+        }
 
         if (Input.GetKeyDown (KeyCode.RightShift) && onGround == true)
         {
-            Jump(player, rb);
+            Jump(1);
         }
 
-        if (Input.GetKeyDown (KeyCode.Space))
+        if (Input.GetKeyDown (KeyCode.Space) && onGround2 == true)
         {
-            Jump(player2, rb2);
+            Jump(2);
         }
-        
-        // if (onGround == true || gamemanager.active == false)
-        // {    
-        //     gravity = 0;
-        // }
-        // else
-        // {
-        //     gravity += versnelling * Time.deltaTime;
-        // }
-
-        // if (onGround2 == true || gamemanager.active == false)
-        // {
-        //     gravity2 = 0;
-        // }
-        // else
-        // {
-        //     gravity2 += versnelling2 * Time.deltaTime;
-        // }
     }
 
-    public void Jump(GameObject playerNumber, Rigidbody rbNumber)
+    public void Jump(int playerNumber)
     {
-        rbNumber.AddForce(Vector3.up * jumpHeight2, ForceMode.Impulse);
+        if(playerNumber == 1)
+        {
+            gravity = jumpHeight;
+            onGround = false;
+        }
+
+        if(playerNumber == 2)
+        {
+            gravity2 = jumpHeight2;
+            onGround2 = false;
+        }
     }
 }

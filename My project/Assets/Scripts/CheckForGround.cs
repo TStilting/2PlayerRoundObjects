@@ -4,21 +4,28 @@ using UnityEngine;
 
 public class CheckForGround : MonoBehaviour
 {
-    public bool isOnGround = false;
-    // Start is called before the first frame update
-    void Start()
+    public TwoPlayerBallController twoPlayerBallController;
+    public bool  option1 = false;
+    private void OnTriggerEnter(Collider other)
     {
-
+        if(!option1)
+        {
+            twoPlayerBallController.onGround = true;
+        }
+        else
+        {
+            twoPlayerBallController.onGround2 = true;
+        }
     }
-
-    // Update is called once per frame
-    void Update()
+        private void OnTriggerExit(Collider other)
     {
-
-    }
-    private void OnTriggerStay(Collider other)
-    {
-        isOnGround = true;
-        Debug.Log(isOnGround);
+        if(!option1)
+        {
+            twoPlayerBallController.onGround = false;
+        }
+        else
+        {
+            twoPlayerBallController.onGround2 = false;
+        }
     }
 }

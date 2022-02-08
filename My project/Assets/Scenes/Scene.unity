@@ -700,7 +700,7 @@ GameObject:
   m_Layer: 0
   m_Name: Players
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1972,7 +1972,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3af44730ff6c14396bd52afaadc643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOnGround: 0
+  twoPlayerBallController: {fileID: 173351385}
+  option1: 0
 --- !u!65 &389399435
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3184,7 +3185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3af44730ff6c14396bd52afaadc643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOnGround: 0
+  twoPlayerBallController: {fileID: 173351385}
+  option1: 1
 --- !u!65 &520191934
 BoxCollider:
   m_ObjectHideFlags: 0
