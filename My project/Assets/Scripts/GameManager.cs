@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
   public ParticleSystem silver;
   public ParticleSystem bronze;
   public GameObject restartButton;
-  public bool active;
+  public bool active = false;
   private int timeSeconds;
   private int time10Seconds;
   private int timeMinutes;
@@ -38,11 +38,11 @@ public class GameManager : MonoBehaviour
     player1.SetActive(true);
     player2.SetActive(true);
     titleScreen.SetActive(false);
-    StartCoroutine(Time());
+    StartCoroutine(TimeCounter());
     timeSeconds = 1;
   }
 
-  IEnumerator Time()
+  IEnumerator TimeCounter()
   {
     while (active)
     {
@@ -139,5 +139,4 @@ public class GameManager : MonoBehaviour
   {
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
   }
-
 }

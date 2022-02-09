@@ -54,12 +54,12 @@ public class TwoPlayerBallController : MonoBehaviour
             gravity2 += versnelling2 * Time.deltaTime;
         }
 
-        if (Input.GetKeyDown (KeyCode.RightShift) && onGround == true)
+        if (Input.GetKey (KeyCode.RightShift) && onGround == true)
         {
             Jump(1);
         }
 
-        if (Input.GetKeyDown (KeyCode.Space) && onGround2 == true)
+        if (Input.GetKey (KeyCode.Space) && onGround2 == true)
         {
             Jump(2);
         }
