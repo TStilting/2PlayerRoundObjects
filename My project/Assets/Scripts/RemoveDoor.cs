@@ -5,7 +5,9 @@ using UnityEngine;
 public class RemoveDoor : MonoBehaviour
 {
     public OpenDoor openDoor;
-    public OpenDoor2 openDoor2;
+    public OpenDoor openDoor2;
+    public GameObject button;
+    public GameObject button2;
 
     void Update()
     {
@@ -17,6 +19,8 @@ public class RemoveDoor : MonoBehaviour
         if (openDoor.keyButton == true && openDoor2.keyButton == true)
         {
             this.gameObject.SetActive(false);
+            button.SetActive(false);
+            button2.SetActive(false);
         }
     }
 }

@@ -36,29 +36,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\OpenDoor4.cs" />
-     <Compile Include="Assets\TwoPlayerBallController.cs" />
+     <Compile Include="Assets\Scripts\TwoPlayerBallController.cs" />
      <Compile Include="Assets\Scripts\StartButton.cs" />
-     <Compile Include="Assets\Scripts\OpenDoor6.cs" />
      <Compile Include="Assets\Scripts\RestartButton.cs" />
-     <Compile Include="Assets\Scripts\Playercontroller.cs" />
-     <Compile Include="Assets\CameraPosition.cs" />
-     <Compile Include="Assets\Scripts\Playercontroller2.cs" />
-     <Compile Include="Assets\Scripts\RemoveDoor2.cs" />
      <Compile Include="Assets\Scripts\RemoveDoor.cs" />
      <Compile Include="Assets\Scripts\CheckForGround.cs" />
      <Compile Include="Assets\Scripts\Win.cs" />
-     <Compile Include="Assets\Scripts\OpenDoor5.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\OpenDoor.cs" />
-     <Compile Include="Assets\Scripts\RemoveDoor3.cs" />
      <Compile Include="Assets\Scripts\FadedInverted.cs" />
      <Compile Include="Assets\Scripts\FadedNormal.cs" />
      <Compile Include="Assets\Scripts\ButtonRotate.cs" />
      <Compile Include="Assets\Scripts\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\Failed.cs" />
-     <Compile Include="Assets\Scripts\OpenDoor2.cs" />
-     <Compile Include="Assets\Scripts\OpenDoor3.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

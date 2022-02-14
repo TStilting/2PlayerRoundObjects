@@ -735,10 +735,8 @@ MonoBehaviour:
   gamemanager: {fileID: 378078954}
   rb: {fileID: 984799941}
   rb2: {fileID: 562475241}
-  player: {fileID: 0}
-  player2: {fileID: 0}
-  speed: 3
-  speed2: 3
+  speed: 3.5
+  speed2: 3.5
   gravity: 0
   gravity2: 0
   moving: {x: 0, y: 0, z: 0}

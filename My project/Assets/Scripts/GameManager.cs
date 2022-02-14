@@ -97,6 +97,7 @@ public class GameManager : MonoBehaviour
     player2.SetActive(false);
     rankPannel.SetActive(false);
     timer.SetActive(false);
+    warning.SetActive(false);
     rank.text = "-";
     timeText.text = "-:--";
     gameOverScreen.gameObject.SetActive(true);
