@@ -9,6 +9,7 @@ TagManager:
   - ButtonPlatform
   - ButtonDoor
   - movingPlatform
+  - Ground
   layers:
   - Default
   - TransparentFX

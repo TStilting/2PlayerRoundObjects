@@ -607,7 +607,7 @@ GameObject:
   - component: {fileID: 135348270}
   m_Layer: 0
   m_Name: Button Platform (Rotating Platform) (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1383,7 +1383,7 @@ GameObject:
   - component: {fileID: 302620481}
   m_Layer: 0
   m_Name: Button Platform (Inverted Faded Platform) (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2134,7 +2134,7 @@ GameObject:
   - component: {fileID: 445097681}
   m_Layer: 0
   m_Name: Button Platform (Inverted Faded Platform)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4370,7 +4370,7 @@ GameObject:
   - component: {fileID: 755967694}
   m_Layer: 0
   m_Name: Button Platform (Inverted Faded Platform) (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10381,7 +10381,7 @@ GameObject:
   - component: {fileID: 994292864}
   m_Layer: 0
   m_Name: Button Platform (Faded Platform)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10477,7 +10477,7 @@ GameObject:
   - component: {fileID: 1017595898}
   m_Layer: 0
   m_Name: Button Platform (Inverted Faded Platform) (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10573,7 +10573,7 @@ GameObject:
   - component: {fileID: 1037523499}
   m_Layer: 0
   m_Name: Starting Floor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11045,7 +11045,7 @@ GameObject:
   - component: {fileID: 1071011817}
   m_Layer: 0
   m_Name: Button Platform (Faded Platform) (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11447,7 +11447,7 @@ GameObject:
   - component: {fileID: 1113266453}
   m_Layer: 0
   m_Name: Button Platform (Rotating Platform) (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16679,7 +16679,7 @@ GameObject:
   - component: {fileID: 1183921078}
   m_Layer: 0
   m_Name: Button Platform (Rotating Platform)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23947,7 +23947,7 @@ GameObject:
   - component: {fileID: 1600397661}
   m_Layer: 0
   m_Name: Button Platform (Faded Platform) (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24847,7 +24847,7 @@ GameObject:
   - component: {fileID: 1902646174}
   m_Layer: 0
   m_Name: Button Platform (Rotating Platform) (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30662,7 +30662,7 @@ GameObject:
   - component: {fileID: 2001836521}
   m_Layer: 0
   m_Name: Button Platform (Faded Platform) (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
