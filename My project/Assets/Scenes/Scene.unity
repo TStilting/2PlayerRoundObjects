@@ -357,11 +357,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 65480124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e39760a4f10f054a9ed901ce51d5385, type: 3}
+  m_Script: {fileID: 11500000, guid: f55172ddab59098439fc87944388086c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openDoor3: {fileID: 1240653247}
-  openDoor4: {fileID: 967488253}
+  openDoor: {fileID: 1240653247}
+  openDoor2: {fileID: 967488253}
+  button: {fileID: 1240653242}
+  button2: {fileID: 967488248}
 --- !u!1 &75758351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,7 +1365,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 281269128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f2f1ec83769e0149a357dc06bec0d04, type: 3}
+  m_Script: {fileID: 11500000, guid: 6719e9cc9a6d13c4d8f30b581daeb0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyButton: 0
@@ -1569,7 +1571,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 331282736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0d71eb3a96d9c84287099f7fcaab1ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 6719e9cc9a6d13c4d8f30b581daeb0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyButton: 0
@@ -1773,11 +1775,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 358391465}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4fca2a99a310144fadb9e89bd8efe0e, type: 3}
+  m_Script: {fileID: 11500000, guid: f55172ddab59098439fc87944388086c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openDoor5: {fileID: 1497562801}
-  openDoor6: {fileID: 281269133}
+  openDoor: {fileID: 1497562801}
+  openDoor2: {fileID: 281269133}
+  button: {fileID: 1497562796}
+  button2: {fileID: 281269128}
 --- !u!1 &370507856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1953,7 +1957,7 @@ Transform:
   m_GameObject: {fileID: 389399432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.566, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.5, y: 0.1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 984799939}
   m_RootOrder: 0
@@ -1971,7 +1975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   twoPlayerBallController: {fileID: 173351385}
-  option1: 0
+  option1: 1
 --- !u!65 &389399435
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3166,7 +3170,7 @@ Transform:
   m_GameObject: {fileID: 520191931}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.56599426, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.5, y: 0.1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 562475240}
   m_RootOrder: 0
@@ -3184,7 +3188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   twoPlayerBallController: {fileID: 173351385}
-  option1: 1
+  option1: 0
 --- !u!65 &520191934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3456,7 +3460,7 @@ GameObject:
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &562475237
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5214,6 +5218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cdfde2cc936ee04b852d73eac93d358, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 378078954}
   Camera: {fileID: 963194225}
   point1: {fileID: 984799939}
   point2: {fileID: 562475240}
@@ -5329,7 +5334,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 967488248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c46926c92e7a29341836eb53eb0b6228, type: 3}
+  m_Script: {fileID: 11500000, guid: 6719e9cc9a6d13c4d8f30b581daeb0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyButton: 0
@@ -5443,6 +5448,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openDoor: {fileID: 2122947285}
   openDoor2: {fileID: 331282741}
+  button: {fileID: 2122947280}
+  button2: {fileID: 331282736}
 --- !u!1 &984799935
 GameObject:
   m_ObjectHideFlags: 0
@@ -5462,7 +5469,7 @@ GameObject:
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &984799936
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17043,8 +17050,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240653242}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -742.94995, y: 78.15886, z: 229.57}
-  m_LocalScale: {x: 1, y: 0.055536684, z: 1}
+  m_LocalPosition: {x: -742.94995, y: 78.158875, z: 229.57}
+  m_LocalScale: {x: 1, y: 0.055536687, z: 1}
   m_Children: []
   m_Father: {fileID: 1053761948}
   m_RootOrder: 2
@@ -17058,7 +17065,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1240653242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a92a4b486091e394383134523dd846c6, type: 3}
+  m_Script: {fileID: 11500000, guid: 6719e9cc9a6d13c4d8f30b581daeb0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyButton: 0
@@ -23469,7 +23476,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1497562796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 418452e338a63b5409429bafcf5c7f82, type: 3}
+  m_Script: {fileID: 11500000, guid: 6719e9cc9a6d13c4d8f30b581daeb0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyButton: 0

@@ -8,7 +8,7 @@ public class CheckForGround : MonoBehaviour
     public bool  option1 = false;
     private void OnTriggerEnter(Collider other)
     {
-        if(!option1)
+        if(option1)
         {
             twoPlayerBallController.onGround = true;
         }
@@ -19,7 +19,7 @@ public class CheckForGround : MonoBehaviour
     }
         private void OnTriggerExit(Collider other)
     {
-        if(!option1)
+        if(option1)
         {
             twoPlayerBallController.onGround = false;
         }
