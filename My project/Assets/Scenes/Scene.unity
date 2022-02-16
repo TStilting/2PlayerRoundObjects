@@ -512,7 +512,7 @@ GameObject:
   - component: {fileID: 85642051}
   m_Layer: 0
   m_Name: Normal Platform (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1178,7 +1178,7 @@ GameObject:
   - component: {fileID: 274284561}
   m_Layer: 0
   m_Name: Normal Platform (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1252,13 +1252,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274284560}
-  m_LocalRotation: {x: -0, y: 0.35028842, z: -0, w: 0.93664193}
+  m_LocalRotation: {x: 0.08923804, y: 0.44335347, z: 0.061345365, w: 0.8897815}
   m_LocalPosition: {x: -735.36255, y: 118.107414, z: 320.32373}
   m_LocalScale: {x: 2.0455177, y: 7.67519, z: 3.1045854}
   m_Children: []
   m_Father: {fileID: 1173996405}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 41.01, z: 0}
+  m_LocalEulerAnglesHint: {x: 5.993, y: 53.545, z: 10.914}
 --- !u!1 &281269128
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,7 +2051,7 @@ GameObject:
   - component: {fileID: 402509152}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2464,8 +2464,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476023478}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -362.43, y: 18.08469, z: 149.5162}
-  m_LocalScale: {x: 0.2685495, y: 1.7119098, z: 1.6044108}
+  m_LocalPosition: {x: -362.43, y: 18.08469, z: 149.5406}
+  m_LocalScale: {x: 0.2685495, y: 1.7119098, z: 1.6531849}
   m_Children: []
   m_Father: {fileID: 1900431911}
   m_RootOrder: 8
@@ -2546,7 +2546,7 @@ GameObject:
   - component: {fileID: 476872107}
   m_Layer: 0
   m_Name: Normal Platform (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3060,7 +3060,7 @@ GameObject:
   - component: {fileID: 519271424}
   m_Layer: 0
   m_Name: Rotating Platform
-  m_TagString: movingPlatform
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3568,7 +3568,7 @@ GameObject:
   - component: {fileID: 580039210}
   m_Layer: 0
   m_Name: Rotating Platform (1)
-  m_TagString: movingPlatform
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3663,7 +3663,7 @@ GameObject:
   - component: {fileID: 607447994}
   m_Layer: 0
   m_Name: Rotating Platform (1)
-  m_TagString: movingPlatform
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4479,7 +4479,7 @@ GameObject:
   - component: {fileID: 759386662}
   m_Layer: 0
   m_Name: Inverted Faded Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4574,7 +4574,7 @@ GameObject:
   - component: {fileID: 790613747}
   m_Layer: 0
   m_Name: Faded Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4864,7 +4864,7 @@ GameObject:
   - component: {fileID: 864203665}
   m_Layer: 0
   m_Name: Rotating Platform
-  m_TagString: movingPlatform
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5041,7 +5041,7 @@ GameObject:
   - component: {fileID: 939502666}
   m_Layer: 0
   m_Name: Normal Platform (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5174,7 +5174,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 50
+  field of view: 80
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -5225,7 +5225,7 @@ MonoBehaviour:
   centerPoint: {x: 0, y: 0, z: 0}
   cameraPlacement: {x: 0, y: 0, z: 0}
   distance: 5
-  zoomFactor: 2
+  zoomFactor: 1
   minimum: 2.8
   maximum: 40
 --- !u!1 &967488248
@@ -10950,7 +10950,7 @@ GameObject:
   - component: {fileID: 1069832698}
   m_Layer: 0
   m_Name: Floor (Start Room 2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11352,7 +11352,7 @@ GameObject:
   - component: {fileID: 1093290523}
   m_Layer: 0
   m_Name: Normal Platform (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11426,13 +11426,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1093290522}
-  m_LocalRotation: {x: -0, y: 0.90999746, z: -0, w: 0.41461393}
+  m_LocalRotation: {x: -0.12381198, y: 0.9504487, z: -0.0033008296, w: 0.2851439}
   m_LocalPosition: {x: -735.48254, y: 118.107414, z: 325.10376}
   m_LocalScale: {x: 2.0455177, y: 7.67519, z: 3.1045854}
   m_Children: []
   m_Father: {fileID: 1173996405}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 131.01, z: 0}
+  m_LocalEulerAnglesHint: {x: -3.689, y: 147.045, z: -13.753}
 --- !u!1 &1113266452
 GameObject:
   m_ObjectHideFlags: 0
@@ -16878,7 +16878,7 @@ GameObject:
   - component: {fileID: 1232229571}
   m_Layer: 0
   m_Name: Normal Platform (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17083,7 +17083,7 @@ GameObject:
   - component: {fileID: 1345553149}
   m_Layer: 0
   m_Name: Floor (Finish)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22969,8 +22969,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460822380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -735.175, y: 121.4694, z: 336.075}
-  m_LocalScale: {x: 4.0147424, y: 13.139231, z: 1.0617515}
+  m_LocalPosition: {x: -735.1928, y: 121.4694, z: 336.1256}
+  m_LocalScale: {x: 4.0504737, y: 13.139231, z: 1.1631354}
   m_Children: []
   m_Father: {fileID: 1354755788}
   m_RootOrder: 2
@@ -23147,7 +23147,7 @@ GameObject:
   - component: {fileID: 1482983840}
   m_Layer: 0
   m_Name: Faded Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23628,7 +23628,7 @@ GameObject:
   - component: {fileID: 1518133154}
   m_Layer: 0
   m_Name: Normal Platform (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24043,7 +24043,7 @@ GameObject:
   - component: {fileID: 1602161328}
   m_Layer: 0
   m_Name: Floor (Middle Room 3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24138,7 +24138,7 @@ GameObject:
   - component: {fileID: 1635731447}
   m_Layer: 0
   m_Name: Normal Platform (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24520,7 +24520,7 @@ GameObject:
   - component: {fileID: 1797623713}
   m_Layer: 0
   m_Name: Normal Platform (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25038,7 +25038,7 @@ GameObject:
   - component: {fileID: 1908889513}
   m_Layer: 0
   m_Name: Rotating Platform
-  m_TagString: movingPlatform
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25424,7 +25424,7 @@ GameObject:
   - component: {fileID: 1940837890}
   m_Layer: 0
   m_Name: Normal Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30758,7 +30758,7 @@ GameObject:
   - component: {fileID: 2008871347}
   m_Layer: 0
   m_Name: Floor (Start Room 3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30853,7 +30853,7 @@ GameObject:
   - component: {fileID: 2017243523}
   m_Layer: 0
   m_Name: Normal Platform (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31103,7 +31103,7 @@ GameObject:
   - component: {fileID: 2038983401}
   m_Layer: 0
   m_Name: Inverted Faded Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

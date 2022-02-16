@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 592}
   m_MaxSize: {x: 10000, y: 10000}
@@ -451,7 +451,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ccb7ffff78b9ffff10cdffffacedffff54fbffff943d0000063e00002e3f000064400000704000006a4d0000984f0000c24f000066510000c88a00006aa900007eae0000
+      m_ExpandedIDs: 52cfffffa6cfffffa6f4ffffc2f8ffff54fbffff943d0000063e00002e3f0000ec3f00002c400000704000003c43000094450000c2480000ea490000084a0000a84a0000c84a00002c4b0000fe4c0000dc660000f06b0000486e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -511,9 +511,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -732.44556, y: 150.6296, z: 233.32745}
+    m_Target: {x: -739.2108, y: 140.89235, z: 263.76544}
     speed: 2
-    m_Value: {x: -732.44556, y: 150.6296, z: 233.32745}
+    m_Value: {x: -739.2108, y: 140.89235, z: 263.76544}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -560,9 +560,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.33724758, y: 0.63052535, z: -0.35226783, w: -0.60388094}
+    m_Target: {x: -0.43479687, y: 0.5599291, z: -0.44458762, w: -0.54755783}
     speed: 2
-    m_Value: {x: -0.33723697, y: 0.6305055, z: -0.35225675, w: -0.6038619}
+    m_Value: {x: -0.43545312, y: 0.5590941, z: -0.44392455, w: -0.5483843}
   m_Size:
     m_Target: 0.086598635
     speed: 2
@@ -671,8 +671,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ec420000
-    m_LastClickedID: 17132
+    m_SelectedIDs: ea420000
+    m_LastClickedID: 17130
     m_ExpandedIDs: 00000000de42000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -753,7 +753,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 306}
     m_GridSize: 62
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
