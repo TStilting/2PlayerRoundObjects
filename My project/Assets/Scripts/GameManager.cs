@@ -61,17 +61,17 @@ public class GameManager : MonoBehaviour
         timeMinutes++;
       }
 
-      if (timeMinutes == 2 && time10Seconds == 3 && timeSeconds > 1)
+      if (timeMinutes == 3 && time10Seconds == 2 && timeSeconds == 0)
       {
         rank.text = "A";
       }
           
-      if (timeMinutes == 3 && time10Seconds == 0 && timeSeconds > 1)
+      if (timeMinutes == 3 && time10Seconds == 5 && timeSeconds == 0)
       {
         rank.text = "B";
       }
 
-      if (timeMinutes == 3 && time10Seconds == 4 && timeSeconds > 6)
+      if (timeMinutes == 4 && time10Seconds == 3 && timeSeconds == 0)
       {
         rank.text = "C";
       }
