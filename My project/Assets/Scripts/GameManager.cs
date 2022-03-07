@@ -17,12 +17,14 @@ public class GameManager : MonoBehaviour
   public GameObject player1;
   public GameObject player2;
   public GameObject titleScreen;
+
   public GameObject gameOverScreen;
   public GameObject resultScreen;
   public ParticleSystem platinum;
   public ParticleSystem gold;
   public ParticleSystem silver;
   public ParticleSystem bronze;
+  public GameObject startButton;
   public GameObject restartButton;
   public bool active = false;
   private int timeSeconds;
@@ -38,6 +40,7 @@ public class GameManager : MonoBehaviour
     player1.SetActive(true);
     player2.SetActive(true);
     titleScreen.SetActive(false);
+    startButton.SetActive(false);
     StartCoroutine(TimeCounter());
     timeSeconds = 1;
   }
