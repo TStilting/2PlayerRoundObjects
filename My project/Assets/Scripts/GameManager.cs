@@ -17,7 +17,6 @@ public class GameManager : MonoBehaviour
   public GameObject player1;
   public GameObject player2;
   public GameObject titleScreen;
-
   public GameObject gameOverScreen;
   public GameObject resultScreen;
   public ParticleSystem platinum;
@@ -25,6 +24,7 @@ public class GameManager : MonoBehaviour
   public ParticleSystem silver;
   public ParticleSystem bronze;
   public GameObject startButton;
+  public GameObject creditsButton;
   public GameObject restartButton;
   public bool active = false;
   private int timeSeconds;
@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
     player2.SetActive(true);
     titleScreen.SetActive(false);
     startButton.SetActive(false);
+    creditsButton.SetActive(false);
     StartCoroutine(TimeCounter());
     timeSeconds = 1;
   }

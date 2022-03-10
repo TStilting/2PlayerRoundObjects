@@ -37,8 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\TwoPlayerBallController.cs" />
-     <Compile Include="Assets\Scripts\StartButton.cs" />
-     <Compile Include="Assets\Scripts\RestartButton.cs" />
+     <Compile Include="Assets\Scripts\ButtonStart.cs" />
+     <Compile Include="Assets\Scripts\ButtonRestart.cs" />
      <Compile Include="Assets\Scripts\RemoveDoor.cs" />
      <Compile Include="Assets\Scripts\CheckForGround.cs" />
      <Compile Include="Assets\Scripts\Win.cs" />
@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\ButtonRotate.cs" />
      <Compile Include="Assets\Scripts\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\Failed.cs" />
+     <Compile Include="Assets\Scripts\ButtonCredits.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
