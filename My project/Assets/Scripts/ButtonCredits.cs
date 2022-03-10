@@ -16,6 +16,6 @@ public class ButtonCredits : MonoBehaviour
 
     void credit()
     {
-   
+        gameManager.showCredits();
     }
 }

@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
   public GameObject player1;
   public GameObject player2;
   public GameObject titleScreen;
+  public GameObject creditsScreen;
   public GameObject gameOverScreen;
   public GameObject resultScreen;
   public ParticleSystem platinum;
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
   public ParticleSystem bronze;
   public GameObject startButton;
   public GameObject creditsButton;
+  public GameObject backButton;
   public GameObject restartButton;
   public bool active = false;
   private int timeSeconds;
@@ -94,6 +96,26 @@ public class GameManager : MonoBehaviour
     invertedPlatform.gameObject.SetActive(true);
   }
 
+  //this is what will let the credits appear
+  public void showCredits()
+  {
+    titleScreen.SetActive(false);
+    startButton.SetActive(false);
+    creditsButton.SetActive(false);
+    creditsScreen.SetActive(true);
+    backButton.SetActive(true);
+  }
+
+  //this removes the credits and goes back to the title screen
+  public void hideCredits()
+  {
+    titleScreen.SetActive(true);
+    startButton.SetActive(true);
+    creditsButton.SetActive(true);
+    creditsScreen.SetActive(false);
+    backButton.SetActive(false);
+  }
+
   public void gameOver()
   { 
     active = false;
@@ -140,6 +162,7 @@ public class GameManager : MonoBehaviour
       bronze.Play();
     }
   }
+
   public void Reload()
   {
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
