@@ -15,6 +15,7 @@ public class MoveCamera : MonoBehaviour
     public float minimum;
     public float maximum;
 
+    //lets the camera calculate where to stay (including zooming), dependent on the position of both players
     void Update()
     {
         distance = (point1.position - point2.position).magnitude;
@@ -25,6 +26,7 @@ public class MoveCamera : MonoBehaviour
         
     }
 
+    //tells at what distance from the players to stop zooming in and out
     public void zoomLimit()
     {
         cameraPlacement = centerPoint - Camera.transform.forward * distance * zoomFactor;

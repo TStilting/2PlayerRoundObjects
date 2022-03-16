@@ -6,6 +6,7 @@ public class OpenDoor : MonoBehaviour
 {
   public bool keyButton;
 
+  //if any player stands on the button, its returns the boolean true...
   private void OnTriggerStay(Collider other)
   {
     if (other.gameObject.name == "Player 1" || other.gameObject.name == "Player 2")
@@ -14,6 +15,7 @@ public class OpenDoor : MonoBehaviour
     }
   }
 
+  //...but also returns the boolean false if the player leaves the button
   private void OnTriggerExit(Collider other)
   {
     if (other.gameObject.name == "Player 1" || other.gameObject.name == "Player 2")

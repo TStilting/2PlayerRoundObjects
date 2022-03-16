@@ -24,6 +24,8 @@ public class TwoPlayerBallController : MonoBehaviour
     {
         moving = rb.position;
         moving2 = rb2.position;
+
+        //this is where the controlls are asigned
         float horizontal1 = Input.GetAxis("Horizontal1");
         float vertical1 = Input.GetAxis("Vertical1");
         float horizontal2 = Input.GetAxis("Horizontal2");
@@ -33,7 +35,7 @@ public class TwoPlayerBallController : MonoBehaviour
 
 
 
-        
+        //aslong as the player is toutching the ground, or the game isnt active, the gravity is disabled
         if (onGround == true || gamemanager.active == false)
         {    
             gravity = 0;
@@ -52,6 +54,7 @@ public class TwoPlayerBallController : MonoBehaviour
             gravity2 += versnelling2 * Time.deltaTime;
         }
 
+        //if the corrosponding button is pressed, the player (dependent on number) jumps
         if (Input.GetKey(KeyCode.RightShift) && onGround == true)
         {
             Jump(1);
@@ -63,6 +66,7 @@ public class TwoPlayerBallController : MonoBehaviour
         }
     }
 
+    //if the player jumps, the gravity is turned on and the ground check set false until the player lands again
     public void Jump(int playerNumber)
     {
         if(playerNumber == 1)

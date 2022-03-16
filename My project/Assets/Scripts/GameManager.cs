@@ -35,6 +35,8 @@ public class GameManager : MonoBehaviour
   public GameObject normalPlatform;
   public GameObject invertedPlatform;
 
+
+  //when called the menu disables, the movement is set active and the game starts
   public void playStart()
   {
     active = true;
@@ -48,6 +50,7 @@ public class GameManager : MonoBehaviour
     timeSeconds = 1;
   }
 
+  //while the game is still active, this is what keeps the time and counts it upwards
   IEnumerator TimeCounter()
   {
     while (active)
@@ -66,7 +69,8 @@ public class GameManager : MonoBehaviour
         time10Seconds = 0;
         timeMinutes++;
       }
-
+      
+      //and if a sertain time passes, the rank changes
       if (timeMinutes == 3 && time10Seconds == 2 && timeSeconds == 0)
       {
         rank.text = "A";
@@ -84,12 +88,14 @@ public class GameManager : MonoBehaviour
     }
   }
   
+  //this switches wich platforms are visable (and solid)
   public void fadedButtonPress()
   {
     normalPlatform.gameObject.SetActive(true);
     invertedPlatform.gameObject.SetActive(false);
   }
 
+  //this also switches wich platforms are visable and solid
   public void invertedFadedButtonPress()
   {
     normalPlatform.gameObject.SetActive(false);
@@ -115,7 +121,7 @@ public class GameManager : MonoBehaviour
     creditsScreen.SetActive(false);
     backButton.SetActive(false);
   }
-
+  //this is what sets the game over screen active if 1 of the players falls down
   public void gameOver()
   { 
     active = false;
@@ -130,6 +136,7 @@ public class GameManager : MonoBehaviour
     restartButton.gameObject.SetActive(true);
   }
 
+  //this is what sets the result screen active at the end of the course
   public void result()
   {
     active = false;
@@ -139,9 +146,12 @@ public class GameManager : MonoBehaviour
     timer.SetActive(false);
     resultScreen.gameObject.SetActive(true);
     restartButton.gameObject.SetActive(true);
+
+    //the result also displays the clear time and rank
     finalRank.text = rank.text;
     finalTime.text = timeText.text;
 
+    // and also dependent on the rank the particles change
     if (rank.text == "S")
     {
       platinum.Play();
@@ -163,6 +173,7 @@ public class GameManager : MonoBehaviour
     }
   }
 
+  //this reloads the scene
   public void Reload()
   {
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);

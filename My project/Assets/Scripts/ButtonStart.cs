@@ -14,6 +14,7 @@ public class ButtonStart : MonoBehaviour
         startButton.onClick.AddListener(allowPlay);   
     }
 
+    //makes the call to the gamamanager to start the game
     void allowPlay()
     {
         gameManager.playStart();   

@@ -13,6 +13,7 @@ public class ButtonRestart : MonoBehaviour
         restartButton.onClick.AddListener(restart);   
     }
 
+    //makes the call to the gamamanager to reload the scene
     void restart()
     {
         gameManager.Reload();   

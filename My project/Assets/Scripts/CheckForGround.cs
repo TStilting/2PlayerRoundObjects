@@ -6,6 +6,9 @@ public class CheckForGround : MonoBehaviour
 {
     public TwoPlayerBallController twoPlayerBallController;
     public bool  option1 = false;
+
+
+    //checks if the player is toutching the ground
     private void OnTriggerEnter(Collider other)
     {
         if(other.transform.tag == "Ground")
@@ -20,6 +23,8 @@ public class CheckForGround : MonoBehaviour
             }
         }
     }
+
+    //enables the gravity when the player leaves the ground
     private void OnTriggerExit(Collider other)
     {
         if(other.transform.tag == "Ground")

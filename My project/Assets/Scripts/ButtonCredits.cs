@@ -14,6 +14,7 @@ public class ButtonCredits : MonoBehaviour
         creditsButton.onClick.AddListener(credit);   
     }
 
+    //makes the call to the gamamanager to show the credits
     void credit()
     {
         gameManager.showCredits();

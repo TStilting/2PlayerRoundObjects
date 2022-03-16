@@ -14,6 +14,7 @@ public class ButtonBack: MonoBehaviour
         backButton.onClick.AddListener(goBack);   
     }
 
+    //makes the call to the gamamanager to hide the credits
     void goBack()
     {
         gameManager.hideCredits();
